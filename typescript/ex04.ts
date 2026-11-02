@@ -12,7 +12,7 @@ interface Produto {
     avaliacao: Avaliacao; 
 }
 
-let produtos: Produto[] = [
+let Produtos: Produto[] = [
     {
         _id: "1",
         nome: "Produto 1",
@@ -51,4 +51,4 @@ let produtos: Produto[] = [
         }
     }
 ];
-console.log(produtos);
+console.log(Produtos);
