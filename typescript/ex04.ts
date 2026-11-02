@@ -1,18 +1,18 @@
-interface avaliacao { 
+interface Avaliacao { 
     nota: number; 
     quantidade: number; 
 }
-interface produto { 
+interface Produto { 
     _id: string;
     nome: string; 
     preco: number; 
     descricao: string;
     categoria: string;
     imagem: string;
-    avaliacao: avaliacao; 
+    avaliacao: Avaliacao; 
 }
 
-let produtos: produto[] = [
+let produtos: Produto[] = [
     {
         _id: "1",
         nome: "Produto 1",
