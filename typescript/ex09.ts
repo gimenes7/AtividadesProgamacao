@@ -1,4 +1,5 @@
 import type { Produto } from "./ex04";
+
 type RequestState<T> =
   | { status: "loading" }
   | { status: "error"; message: string }

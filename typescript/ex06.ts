@@ -1,4 +1,6 @@
 import type { Produto } from "./ex04";
+import { Produtos } from "./ex04";
+
 type ProdutoPayload = Omit<Produto, "_id">;
 type ProdutoParcial = Partial<Produto>;
 
