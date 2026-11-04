@@ -21,3 +21,6 @@ function ordenar(produtos: Produto[], criterio: CriterioOrdenacao): Produto[] {
       throw new Error("Criterio de ordenação inválido");
   }
 }
+
+console.log(ordenar(Produtos, CriterioOrdenacao.PrecoMaior));
+console.log(Produtos); // deve continuar na ordem original
